@@ -10,5 +10,7 @@
         | <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
 		<script src="{{ .Site.BaseURL }}js/themetoggle.js"></script>
 		{{ end }}
+		{{ partial "language-switcher.html" . }}
+
 	</nav>
 </header>
